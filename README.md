@@ -15,6 +15,18 @@ You'll need to add the following permissions (required by Google's IMA SDK):
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 ```
 
+# Dependencies
+```
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.17.1'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.17.1'
+    implementation 'com.google.android.exoplayer:extension-ima:2.17.1'
+    implementation files('./libs/app-debug.aar') // our package
+```
+
 # ImpactifyAd Class
 A new instance of the ImpactifyAd class needs to be instanciated. It takes a few parameters:
 
